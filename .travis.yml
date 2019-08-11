@@ -6,4 +6,4 @@ before_install:
   - docker build -t ra-cloud/dr -f Dockerfile.dev .
 
 script:
-  - docker run ra-cloud/dr npm run test -- --coverage
+  - docker run -e CI=true ra-cloud/dr npm run test
