@@ -12,7 +12,7 @@ function App() {
         className = "App-logo"
         alt = "logo" / >
         <
-        p > I was changed < /p>  <
+        p > I was changed here < /p>  <
         a className = "App-link"
         href = "https://reactjs.org"
         target = "_blank"
