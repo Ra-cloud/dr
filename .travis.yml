@@ -9,7 +9,7 @@ script:
   - docker run -e CI=true ra-cloud/dr npm run test
 
 deploy:
-  provider: \$01_PROVIDER
+  provider: "[01_PROVIDER]"
   region: '$01_REGION'
   app: "docker"
   env: "Docker-env"
