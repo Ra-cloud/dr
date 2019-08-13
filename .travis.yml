@@ -11,8 +11,8 @@ script:
 deploy:
   provider: $ONE_PROVIDER
   region: $ONE_REGION
-  app: "docker2"
-  env: "Docker2-env"
+  app: $ONE_APP
+  env: $ONE_ENV
   bucket_name: $ONE_BUCKET_NAME
   bucket_path: $ONE_BUCKET_PATH
   on:
